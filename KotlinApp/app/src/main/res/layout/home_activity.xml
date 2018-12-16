@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="0dp"
+        android:paddingBottom="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+
+    <TextView
+            android:text="User name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelUserName"
+            android:layout_marginTop="20dp"
+            android:textColor="#55ef3709"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textAlignment="center"
+
+    />
+    <Button
+            android:textAllCaps="false"
+            android:text="Go to List view"
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content" android:id="@+id/btnList"/>
+</LinearLayout>
